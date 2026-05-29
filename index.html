@@ -10,14 +10,20 @@
       content="Tesla Model Y owner experience in Germany, charging costs, insurance, THG-Prämie, and Tesla referral link for Germany buyers." />
 
 <meta name="keywords"
-      content="Tesla referral link, Tesla Germany referral link, Tesla Model Y Germany referral link, Tesla referral code Germany, Tesla Deutschland referral, Tesla referral Deutschland" />
+      content="Tesla refferal link, Tesla Germany referral link, Tesla referral Germany, Tesla Model Y Germany refferal, Tesla referral code Germany, Tesla Deutschland referral" />
 
 <meta name="robots" content="index, follow" />
 
-<meta property="og:title" content="Tesla Germany Referral Link" />
-<meta property="og:description" content="Real Tesla ownership experience in Germany with referral link, charging info, insurance costs, and THG-Prämie details." />
+<meta property="og:title"
+      content="Tesla Germany Referral Link" />
+
+<meta property="og:description"
+      content="Real Tesla ownership experience in Germany with referral link, charging info, insurance costs, and THG-Prämie details." />
+
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://akhisrism.github.io/tesla-Germany-referral-site/" />
+
+<meta property="og:url"
+      content="https://akhisrism.github.io/tesla-Germany-referral-site/" />
 
 <style>
 * {
@@ -25,7 +31,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     background: #111;
@@ -47,6 +52,7 @@ body {
 .hero h1 {
     font-size: 52px;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .hero p {
@@ -69,6 +75,7 @@ body {
 .section h2 {
     font-size: 28px;
     margin-bottom: 15px;
+    color: #ffffff;
     border-left: 4px solid #e82127;
     padding-left: 12px;
 }
@@ -79,88 +86,19 @@ body {
     margin-bottom: 15px;
 }
 
-/* ================= REFERRAL ================= */
-.referral-card, .subsidy-card {
-    background: #151515;
-    padding: 35px;
-    border-radius: 16px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.35);
-}
-
-.referral-text {
-    font-size: 18px;
-    color: #ccc;
-    margin-bottom: 20px;
-}
-
-.referral-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 18px;
-}
-
-.referral-link {
-    color: #4da6ff;
-    font-size: 16px;
-    word-break: break-word;
+.referral {
     text-align: center;
+    margin-top: 50px;
 }
 
-.referral-button {
-    background: #e82127;
-    color: white;
-    padding: 16px 32px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    transition: 0.3s ease;
-}
-
-.referral-button:hover {
-    background: #ff2d33;
-    transform: translateY(-2px);
-}
-
-.referral-note {
-    margin-top: 15px;
-    font-size: 14px;
-    color: #999;
-    text-align: center;
-}
-
-/* ================= SUBSIDY ================= */
-.subsidy-link {
+.link {
     display: inline-block;
-    margin: 15px 0 25px;
+    margin-top: 15px;
     color: #4da6ff;
-    font-size: 16px;
+    font-size: 18px;
+    word-break: break-word;
 }
 
-.table-wrapper {
-    overflow-x: auto;
-}
-
-.eligibility-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.eligibility-table th,
-.eligibility-table td {
-    border: 1px solid #333;
-    padding: 12px;
-    font-size: 16px;
-    color: #ddd;
-}
-
-.eligibility-table th {
-    background: #222;
-    color: #fff;
-}
-
-/* ================= BUTTON ================= */
 .button {
     display: inline-block;
     margin-top: 30px;
@@ -171,6 +109,7 @@ body {
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
+    transition: 0.3s ease;
 }
 
 .button:hover {
@@ -181,8 +120,27 @@ body {
 .footer {
     text-align: center;
     margin-top: 60px;
+    padding: 20px;
     color: #999;
     font-size: 14px;
+}
+
+.lang-button {
+    margin-top: 20px;
+    padding: 10px 16px;
+    background: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 38px; }
+    .hero p, .section p { font-size: 17px; }
+    .section h2 { font-size: 24px; }
+    .content { padding: 25px; }
+    .button { width: 100%; max-width: 320px; }
 }
 </style>
 </head>
@@ -191,120 +149,121 @@ body {
 
 <div class="container">
 
-    <!-- HERO -->
     <div class="hero">
-        <h1>My Tesla Journey</h1>
-        <p>My experience buying and owning a Tesla Model Y RWD in Germany.</p>
+
+        <h1 data-en="My Tesla Journey"
+            data-de="Meine Tesla Reise">
+            My Tesla Journey
+        </h1>
+
+        <p data-en="My experience buying and owning a Tesla Model Y RWD in Germany."
+           data-de="Meine Erfahrung beim Kauf und Besitz eines Tesla Model Y RWD in Deutschland.">
+            My experience buying and owning a Tesla Model Y RWD in Germany.
+        </p>
+
+        <button class="lang-button" onclick="toggleLanguage()">
+            🌐 Deutsch / English
+        </button>
+
     </div>
 
     <div class="content">
 
-        <!-- DRIVING -->
         <div class="section">
-            <h2>Driving Experience</h2>
-            <p>I bought a Tesla Model Y RWD in May 2026. The driving experience was excellent across highways, city streets, and rural roads.</p>
-            <p>Regenerative braking helps recharge the battery when lifting your foot off the accelerator.</p>
-            <p>EVs can feel noisier at high speeds since there is no engine sound masking road noise.</p>
-        </div>
+            <h2 data-en="Driving Experience"
+                data-de="Fahrerlebnis">Driving Experience</h2>
 
-        <!-- REFERRAL -->
-        <div class="section referral-card">
-            <h2>My Tesla Referral Link</h2>
-
-            <p class="referral-text">
-                If you are planning to order a Tesla in Germany, you can use my referral link below.
+            <p data-en="I bought a Tesla Model Y RWD in May 2026. Before purchasing it, I completed several test drives on highways, country roads, and city streets. Overall, the driving experience was excellent."
+               data-de="Ich habe im Mai 2026 einen Tesla Model Y RWD gekauft. Vor dem Kauf habe ich mehrere Probefahrten auf Autobahnen, Landstraßen und in der Stadt gemacht. Insgesamt war das Fahrerlebnis ausgezeichnet.">
+                I bought a Tesla Model Y RWD in May 2026. Before purchasing it, I completed several test drives on highways, country roads, and city streets. Overall, the driving experience was excellent.
             </p>
 
-            <div class="referral-box">
-                <a class="referral-link"
+            <p data-en="Regenerative braking helps recharge the battery while driving."
+               data-de="Die Rekuperation hilft dabei, die Batterie während der Fahrt aufzuladen.">
+                One thing new EV drivers may notice is regenerative braking.
+            </p>
+
+            <p data-en="EVs can have more outside noise at high speeds compared to petrol cars."
+               data-de="E-Autos können bei hohen Geschwindigkeiten mehr Außengeräusche haben als Verbrenner.">
+                At higher speeds, EVs may feel noisier.
+            </p>
+        </div>
+
+        <div class="referral">
+
+            <div class="section">
+                <h2 data-en="My Tesla Referral Link"
+                    data-de="Mein Tesla Empfehlungslink">
+                    My Tesla Referral Link
+                </h2>
+
+                <a class="link"
                    href="https://www.tesla.com/referral/srikanthar681504"
                    target="_blank">
                    https://www.tesla.com/referral/srikanthar681504
                 </a>
 
-                <a class="referral-button"
+                <br>
+
+                <a class="button"
                    href="https://www.tesla.com/referral/srikanthar681504"
                    target="_blank">
-                   🚗 Order Your Tesla
+                   Order Your Tesla
                 </a>
             </div>
 
-            <p class="referral-note">
-                I may receive referral benefits if you purchase through this link.
+        </div>
+
+        <div class="section">
+            <h2 data-en="Home Charging"
+                data-de="Laden zu Hause">Home Charging</h2>
+
+            <p data-en="Home charging is usually the cheapest option."
+               data-de="Das Laden zu Hause ist meist die günstigste Option.">
+                Home charging is usually the cheapest option.
+            </p>
+
+            <p data-en="Installation costs can vary depending on building infrastructure."
+               data-de="Die Installationskosten hängen von der Gebäudestruktur ab.">
+                Installation costs in apartments may vary.
             </p>
         </div>
 
-        <!-- HOME CHARGING -->
         <div class="section">
-            <h2>Home Charging</h2>
-            <p>Home charging is usually the cheapest option at around €0.27 per kWh in Germany.</p>
-            <p>Installation in apartments may require landlord approval and can be expensive in older buildings.</p>
-        </div>
+            <h2 data-en="Public & Workplace Charging"
+                data-de="Öffentliches & Arbeitsplatzladen">
+                Public & Workplace Charging
+            </h2>
 
-        <!-- PUBLIC CHARGING -->
-        <div class="section">
-            <h2>Public & Workplace Charging</h2>
-            <p>Public charging costs around €0.55 per kWh in many areas.</p>
-            <p>Tesla Superchargers remain one of the most reliable options in Germany.</p>
-        </div>
-
-        <!-- INSURANCE -->
-        <div class="section">
-            <h2>Car Insurance</h2>
-            <p>Full coverage insurance can cost up to €2,200 per year depending on profile and location.</p>
-        </div>
-
-        <!-- THG -->
-        <div class="section">
-            <h2>THG-Prämie / Incentives</h2>
-            <p>EV owners can sell CO₂ certificates annually through the THG program.</p>
-            <p>Typical payouts range around €300–€380 depending on market conditions.</p>
-        </div>
-
-        <!-- SUBSIDY -->
-        <div class="section subsidy-card">
-            <h2>Government EV Subsidy (Germany)</h2>
-
-            <p>
-                Eligible electric vehicle buyers in Germany may receive up to <strong>€6,000</strong> in government support.
+            <p data-en="Public charging is more expensive than home charging."
+               data-de="Öffentliches Laden ist teurer als Laden zu Hause.">
+                Public charging is generally more expensive.
             </p>
 
-            <a class="subsidy-link"
-               href="https://foerderzentrale.gov.de/foerderung-finden/a7218433-83c6-49d3-93e0-5ed0f1862891"
-               target="_blank">
-               Apply for EV Subsidy
-            </a>
+            <p data-en="Tesla Superchargers are widely available in Germany."
+               data-de="Tesla Supercharger sind in Deutschland weit verbreitet.">
+                Tesla Superchargers are very reliable.
+            </p>
+        </div>
 
-            <h3>Eligibility Criteria</h3>
+        <div class="section">
+            <h2 data-en="Car Insurance"
+                data-de="Autoversicherung">Car Insurance</h2>
 
-            <div class="table-wrapper">
-                <table class="eligibility-table">
-                    <tr>
-                        <th>Criteria</th>
-                        <th>Requirement</th>
-                    </tr>
-                    <tr>
-                        <td>Vehicle Type</td>
-                        <td>Fully electric vehicle (BEV)</td>
-                    </tr>
-                    <tr>
-                        <td>Registration</td>
-                        <td>Must be registered in Germany</td>
-                    </tr>
-                    <tr>
-                        <td>Applicant</td>
-                        <td>Private individual or eligible business</td>
-                    </tr>
-                    <tr>
-                        <td>Purchase</td>
-                        <td>New vehicle or qualifying lease</td>
-                    </tr>
-                    <tr>
-                        <td>Documentation</td>
-                        <td>Proof of purchase and registration</td>
-                    </tr>
-                </table>
-            </div>
+            <p data-en="Tesla insurance can be expensive depending on driving profile."
+               data-de="Die Versicherung für Tesla kann je nach Fahrerprofil teuer sein.">
+                Insurance costs can be high.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 data-en="THG-Prämie / Tax Credits"
+                data-de="THG-Prämie / Förderung">THG-Prämie / Tax Credits</h2>
+
+            <p data-en="EV owners can earn money by selling CO₂ certificates."
+               data-de="E-Auto-Besitzer können durch den Verkauf von CO₂-Zertifikaten Geld verdienen.">
+                THG program allows annual earnings.
+            </p>
         </div>
 
     </div>
@@ -314,6 +273,21 @@ body {
     </div>
 
 </div>
+
+<script>
+function toggleLanguage() {
+    const elements = document.querySelectorAll("[data-en]");
+    const isGerman = document.body.getAttribute("data-lang") === "de";
+
+    elements.forEach(el => {
+        el.innerText = isGerman
+            ? el.getAttribute("data-en")
+            : el.getAttribute("data-de");
+    });
+
+    document.body.setAttribute("data-lang", isGerman ? "en" : "de");
+}
+</script>
 
 </body>
 </html>
