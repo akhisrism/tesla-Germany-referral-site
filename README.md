@@ -1,4 +1,4 @@
-# tesla-Germany-referral-site
+# tesla-Germany-referral-link
 # Tesla Germany referral link
 # Tesla referral link Germany
 # Tesla referral link Deutschland
