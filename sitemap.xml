@@ -2,47 +2,46 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-
 <url>
-<loc>
-https://tesla-referral-deutschland.de/
-</loc>
+    <loc>https://tesla-referral-deutschland.de/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
 </url>
 
-
 <url>
-<loc>
-https://tesla-referral-deutschland.de/model-y-review/
-</loc>
+    <loc>https://tesla-referral-deutschland.de/model-y-review/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
 </url>
 
-
 <url>
-<loc>
-https://tesla-referral-deutschland.de/tesla-charging-germany/
-</loc>
+    <loc>https://tesla-referral-deutschland.de/tesla-charging-germany/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
 </url>
 
-
 <url>
-<loc>
-https://tesla-referral-deutschland.de/tesla-insurance-germany/
-</loc>
+    <loc>https://tesla-referral-deutschland.de/tesla-insurance-germany/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
 </url>
 
-
 <url>
-<loc>
-https://tesla-referral-deutschland.de/thg-premie/
-</loc>
+    <loc>https://tesla-referral-deutschland.de/thg-premie/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
 </url>
 
-
 <url>
-<loc>
-https://tesla-referral-deutschland.de/tesla-subsidy-germany/
-</loc>
+    <loc>https://tesla-referral-deutschland.de/tesla-subsidy-germany/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
 </url>
-
 
 </urlset>
