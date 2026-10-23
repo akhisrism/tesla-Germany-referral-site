@@ -30,7 +30,7 @@
   "description": "Open my Tesla referral link and check the benefits shown for your order. English guide for Germany with ordering steps, eligibility checks and owner experience.",
   "inLanguage": "en",
   "datePublished": "2026-08-19",
-  "dateModified": "2026-10-05",
+  "dateModified": "2026-10-23",
   "image": "https://tesla-referral-deutschland.de/images/tesla.jpeg",
   "author": {
     "@type": "Person",
@@ -353,6 +353,26 @@ tr:last-child td { border-bottom:0; }
 @media (prefers-reduced-motion:reduce) {
   html { scroll-behavior:auto; }
 }
+
+/* Referral navigation update: 23 October 2026 */
+.offer-grid{grid-template-columns:1fr}
+.referral-start{margin:20px auto 24px;padding:20px;border:1px solid #737b87;border-radius:16px;max-width:780px;text-align:left;background:#15181d;color:#f5f7fa}
+.referral-start p{color:#e2e8f0;line-height:1.65}
+.referral-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:16px 0}
+.referral-start .referral-open,.referral-copy{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border-radius:8px;font:inherit;font-weight:700;text-decoration:none;box-sizing:border-box;cursor:pointer}
+.referral-start .referral-open{background:#174ea6;color:#fff;border:2px solid #174ea6}
+.referral-copy{background:#f5f7fa;color:#101828;border:2px solid #f5f7fa}
+.referral-start a:not(.referral-open){color:#b9d6ff;text-decoration:underline}
+.referral-start a:focus-visible,.referral-copy:focus-visible{outline:3px solid #fbbf24;outline-offset:4px}
+.referral-url{display:block;overflow-wrap:anywhere;font-size:.95rem;margin:10px 0}
+.referral-status{display:block;min-height:1.5em;color:#e2e8f0}
+.referral-checklist{line-height:1.7;padding-left:24px}
+.referral-checklist li{margin:10px 0}
+.past-offer{padding:16px;margin:24px 0;border:1px solid #737b87;border-radius:12px}
+.past-offer summary{cursor:pointer;font-weight:700;line-height:1.5}
+.past-offer p{color:inherit!important}
+@media(max-width:480px){.referral-start{padding:16px}.referral-actions>*{width:100%}}
+
 </style>
 </head>
 <body>
@@ -368,28 +388,21 @@ tr:last-child td { border-bottom:0; }
 <header class="hero">
 <p class="eyebrow">Tesla Referral Link · English guide for Germany</p>
 <h1>Tesla Referral Link 2026 – Owner Guide for Germany</h1>
-<p class="lead">Looking for a Tesla Referral Link? I am a Tesla Model Y RWD owner in Germany. Open my link below, check the benefit Tesla displays for your order, and follow the steps in this guide before buying.</p>
-<p class="updated">Page updated: 5 October 2026. Current referral reward amount not independently confirmed.</p>
-<a class="cta" href="https://www.tesla.com/referral/srikanthar681504" rel="sponsored noopener" target="_blank">
-        Open My Tesla Referral Link
-      </a><img alt="My Tesla Model Y in Germany – Tesla Referral Link guide" class="hero-image" height="513" loading="eager" src="/images/tesla.jpeg" width="820"/>
+<p class="lead">Looking for a Tesla Referral Link? I am a Tesla Model Y RWD owner in Germany. Open my link below, check the benefit Tesla displays for your order, and follow the steps in this guide before buying.</p><section class="referral-start" aria-label="Tesla referral link"><p >I’m Srikanth, a Model Y owner in Germany. Here is my personal Tesla referral link for your order.</p><div class="referral-actions"><a class="referral-open" href="https://www.tesla.com/referral/srikanthar681504" target="_blank" rel="sponsored noopener">Open Tesla referral link</a><button class="referral-copy" type="button" data-copy-referral="https://www.tesla.com/referral/srikanthar681504" aria-describedby="referral-copy-status">Copy link</button></div><span id="referral-copy-status" class="referral-status" role="status" aria-live="polite"></span><a class="referral-url" href="https://www.tesla.com/referral/srikanthar681504" rel="sponsored noopener" target="_blank">https://www.tesla.com/referral/srikanthar681504</a><p >Opens tesla.com. Check the benefit for your vehicle and order before paying. No specific reward amount is promised here.</p><p >Disclosure: I may receive a referral reward when you use my link. This website is independent of Tesla.</p><nav aria-label="Language guides"><a href="/tesla-referral-link-deutschland/" lang="de" hreflang="de-DE">Anleitung auf Deutsch</a> · <a href="/en/tesla-referral-link/" lang="en" hreflang="en">Guide in English</a></nav></section>
+<p class="updated">Guide updated: 23 October 2026. Check the reward for your order directly with Tesla.</p>
+<img alt="My Tesla Model Y in Germany – Tesla Referral Link guide" class="hero-image" height="513" loading="eager" src="/images/tesla.jpeg" width="820"/>
 </header>
 <section aria-label="Current Tesla referral and purchase offers" class="offer-grid">
 <article class="offer primary">
 <span class="badge">Referral benefit</span>
 <div class="big">Your referral link</div>
 <h2>Check your Tesla buyer benefit</h2>
-<p>Open my personal referral link to see whether Tesla offers a benefit for your chosen vehicle and order market. The older version of this page reported 1,000 free Supercharging km in August 2026; that amount has not been reconfirmed for this update.</p>
+<p>Open my personal referral link to see whether Tesla offers a benefit for your chosen vehicle and order market. The benefit and eligibility shown by Tesla for your order take precedence over older promotions.</p>
 <a class="cta" href="https://www.tesla.com/referral/srikanthar681504" rel="sponsored noopener" target="_blank">
         Open My Tesla Referral Link
       </a>
 </article>
-<article class="offer">
-<span class="badge">Previous Tesla promotion</span>
-<div class="big">Order deadline ended</div>
-<h2>15 September 2026</h2>
-<p>The previously announced Tesla Bonus of up to €2,000 is not presented here as available for new orders. Eligible existing orders may retain the offer under the supplied email’s delivery conditions, including the Tesla-caused delay exception described below.</p>
-</article>
+
 </section>
 <section class="section">
 <h2>What is a Tesla Referral Link?</h2>
@@ -435,34 +448,9 @@ tr:last-child td { border-bottom:0; }
       Use Tesla Referral Link
     </a>
 </section>
-<section class="section">
-<h2>Referral benefits and the previous Tesla Bonus: the difference</h2>
-<p>Referral benefits and Tesla sales promotions have separate conditions. Do not assume they can be combined.</p>
-<div class="table-wrap">
-<table>
-<thead>
-<tr>
-<th>Offer</th>
-<th>Current information</th>
-<th>What to check</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Tesla Referral Link</strong></td>
-<td>Check the benefit currently displayed by Tesla for your order; no fixed amount is confirmed here.</td>
-<td>Open the referral link before ordering and confirm the benefit Tesla displays.</td>
-</tr>
-<tr>
-<td><strong>€2,000 Tesla Bonus</strong></td>
-<td>Previous promotion: new-order deadline ended 15 September 2026.</td>
-<td>Check model eligibility, order date, delivery deadline and other Tesla campaign conditions.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-<section class="section"><h2>Previous Tesla Bonus: conditions for existing orders</h2><p>This promotion is not advertised here as available for new orders. The conditions below concern eligible existing orders.</p><p style="color:#202020;margin:0 0 12px;font-size:16px">According to the supplied Tesla email: up to €2,000 Tesla Bonus for eligible Model Y Rear-Wheel Drive vehicles ordered from July 16 through September 15, 2026 inclusive. Delivery is normally required by September 30, 2026 inclusive. Premium versions and used vehicles, including certified pre-owned vehicles, are excluded.</p><p style="color:#202020;margin:0 0 12px;font-size:16px">Important for Tesla-caused delivery delays: an eligible order retains the offer if Tesla causes the delay and you accept the first available delivery appointment Tesla provides. If you fail to take delivery at that appointment for reasons attributable to you, eligibility is lost. The order deadline and delivery deadline are separate conditions.</p><p style="color:#202020;margin:0 0 12px;font-size:16px">The amount appears as “Tesla Bonus” on the vehicle invoice. This is a separate sales promotion, not a referral reward. This notice does not promise that offers can be combined. Tesla’s conditions for your order apply.</p><p style="color:#202020;margin:0 0 12px;font-size:16px">Source: supplied Tesla email; these conditions were added to this page on September 13, 2026.</p></section>
+
+
+<section class="section" id="referral-checklist"><h2>Before you order: four checks</h2><ol class="referral-checklist"><li><strong>Order market:</strong> Select Germany and your intended vehicle on Tesla’s website.</li><li><strong>Benefit:</strong> Read the reward and conditions displayed for your selection. An old screenshot does not establish today’s offer.</li><li><strong>Total offer:</strong> Compare the purchase price, financing and referral benefit separately. Check whether combining offers is expressly allowed.</li><li><strong>Order summary:</strong> Save the displayed conditions. If an expected benefit is missing, resolve it with Tesla before paying.</li></ol><p>A referral parameter in a URL alone does not confirm your eligibility or reward. Check the conditions for your specific order.</p></section>
 <section class="section">
 <h2>How to check which Tesla models qualify</h2>
 <p>Check the referral page for your intended model, configuration and order market. An earlier offer for Model Y or Model 3 does not establish current eligibility. If no buyer benefit appears, ask Tesla before ordering rather than assuming it will be added later.</p>
@@ -543,9 +531,53 @@ tr:last-child td { border-bottom:0; }
 <p>Wenn sich die Lieferzeit aufgrund von Umständen, die im Einflussbereich von Tesla liegen, verzögert, haben Sie weiterhin Anspruch auf den Aktionszins, sofern Sie das bestellte Fahrzeug an dem ersten von Tesla mitgeteilten Auslieferungstermin entgegennehmen. Erfolgt die Übernahme des Fahrzeugs an diesem mitgeteilten Liefertermin aus vom Kunden zu vertretenden Umständen nicht, entfällt der Anspruch auf die Sonderkonditionen. Das Finanzierungsangebot ist begrenzt verfügbar, gilt nur solange der Vorrat reicht und ist nicht mit sonstigen Nachlässen oder Angeboten kombinierbar.</p>
 </details><p>Stand dieser Finanzierungsinformation: 5. Oktober 2026. Quelle: dem Seitenbetreiber bereitgestellte Tesla-Finanzierungsbedingungen. Prüfe Verfügbarkeit, Fahrzeugvariante und verbindliche Konditionen vor dem Abschluss direkt bei <a href="https://www.tesla.com/de_de/modely/design">Tesla</a>.</p>
 </section>
+<details class="past-offer"><summary>Previous Tesla Bonus: conditions for existing orders</summary>
+<p>Referral benefits and Tesla sales promotions have separate conditions. Do not assume they can be combined.</p>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Offer</th>
+<th>Current information</th>
+<th>What to check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tesla Referral Link</strong></td>
+<td>Check the benefit currently displayed by Tesla for your order; no fixed amount is confirmed here.</td>
+<td>Open the referral link before ordering and confirm the benefit Tesla displays.</td>
+</tr>
+<tr>
+<td><strong>€2,000 Tesla Bonus</strong></td>
+<td>Previous promotion: new-order deadline ended 15 September 2026.</td>
+<td>Check model eligibility, order date, delivery deadline and other Tesla campaign conditions.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>This promotion is not advertised here as available for new orders. The conditions below concern eligible existing orders.</p><p style="color:#202020;margin:0 0 12px;font-size:16px">According to the supplied Tesla email: up to €2,000 Tesla Bonus for eligible Model Y Rear-Wheel Drive vehicles ordered from July 16 through September 15, 2026 inclusive. Delivery is normally required by September 30, 2026 inclusive. Premium versions and used vehicles, including certified pre-owned vehicles, are excluded.</p><p style="color:#202020;margin:0 0 12px;font-size:16px">Important for Tesla-caused delivery delays: an eligible order retains the offer if Tesla causes the delay and you accept the first available delivery appointment Tesla provides. If you fail to take delivery at that appointment for reasons attributable to you, eligibility is lost. The order deadline and delivery deadline are separate conditions.</p><p style="color:#202020;margin:0 0 12px;font-size:16px">The amount appears as “Tesla Bonus” on the vehicle invoice. This is a separate sales promotion, not a referral reward. This notice does not promise that offers can be combined. Tesla’s conditions for your order apply.</p><p style="color:#202020;margin:0 0 12px;font-size:16px">Source: supplied Tesla email; these conditions were added to this page on September 13, 2026.</p></details>
 <footer class="footer">
 <p>Independent Tesla owner guide. Not officially affiliated with Tesla. I may receive a reward if you use my referral link. Referral benefits, prices and promotions can change; Tesla’s conditions for your order apply.</p>
 </footer>
 </div>
+
+<script>
+document.addEventListener('click', async function(event) {
+  const button = event.target.closest('[data-copy-referral]');
+  if (!button) return;
+  const status = document.getElementById('referral-copy-status');
+  const english = document.documentElement.lang.startsWith('en');
+  const url = button.dataset.copyReferral;
+  try {
+    if (!navigator.clipboard || !window.isSecureContext) throw new Error('Clipboard unavailable');
+    await navigator.clipboard.writeText(url);
+    status.textContent = english ? 'Link copied.' : 'Link kopiert.';
+  } catch(error) {
+    status.textContent = english ? 'Select and copy the link shown below the buttons.' : 'Markiere und kopiere den Link unter den Buttons.';
+  }
+});
+</script>
+
 </body>
 </html>
